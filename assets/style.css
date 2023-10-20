@@ -15,14 +15,12 @@
   color: black;
 }
 
-.row {
+.col-2, .col-8 {
+  border: 2px solid black;
   border-radius: 5px;
+  text-align: center;
 }
 
-.row {
-  width: 100%;
-  border: 2px solid black;
-}
 .upcoming {
   background-color: blue;
 }
@@ -32,5 +30,5 @@
 }
 
 .expired {
-  background-color: red;
+  background-color: grey;
 }
